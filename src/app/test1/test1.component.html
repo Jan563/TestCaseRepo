@@ -1,0 +1,12 @@
+<div>
+  <!-- <form> -->
+    Prvo število:
+    <input type="text" [(ngModel)]="sestevanec1"> 
+    Drugo število:
+    <input type="text" [(ngModel)]="sestevanec2"> 
+    <button style="margin-left: 10px" (click)="Sestej()"> Sestej</button>
+  <!-- </form> -->
+  <p></p>
+  <label> Rezultat je: </label>
+  <label [innerText]="vsota">  </label>
+</div>
