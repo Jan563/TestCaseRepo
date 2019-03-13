@@ -30,6 +30,6 @@ describe('Test1Component', () => {
     component.Sestej();    
     
     
-    expect(component.vsota).toEqual(12);
+    expect(component.vsota).toEqual(13);
   });
 });
